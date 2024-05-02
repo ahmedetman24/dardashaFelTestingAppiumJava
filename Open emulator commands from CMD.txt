@@ -1,0 +1,11 @@
+emulator -list-avds
+emulator -avd [emulator name]
+
+to connect wifi to emulator:
+emulator -avd GalaxyS24 -netdelay none -netspeed full -dns-server 8.8.8.8
+
+to download Webdrivermanager automatically without issues:
+appium --allow-insecure chromedriver_autodownload
+
+to know udid of a device:
+adb devices
