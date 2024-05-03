@@ -1,7 +1,7 @@
 <suite name = "Regression Suite">
     <test name = "Open from the app">
         <parameter name="deviceName" value="HUAWEI nova 3i"/>
-        <parameter name="udid" value="2JN4C18C13001221"/>
+        <parameter name="udid" value="[udid value]"/>
         <parameter name="platformName" value="Android"/>
         <parameter name="platformVersion" value="9"/>
         <parameter name="browserName" value="Chrome"/>
@@ -14,7 +14,7 @@
     </test>
     <test name = "Open from the browser">
         <parameter name="deviceName" value="Galaxy A15"/>
-        <parameter name="udid" value="RK8X200D6YR"/>
+        <parameter name="udid" value="[udid value]"/>
         <parameter name="platformName" value="Android"/>
         <parameter name="platformVersion" value="14"/>
         <parameter name="browserName" value="Chrome"/>
